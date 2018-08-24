@@ -27,14 +27,14 @@ $GLOBALS['config']['mysql'] = array(
     'database' => 'database',
     'master' => array(
         'host'     => '127.0.0.1',
-        'userName' => 'root',
-        'passwd'   => 'root',
+        'username' => 'root',
+        'password' => 'root',
         'port'     => '3306',
     ),
     'slave' => array(
         'host'     => array("127.0.0.1"),
-        'userName' => 'root',
-        'passwd'   => 'root',
+        'username' => 'root',
+        'password' => 'root',
         'port'     => '3306',
     ),
 );
